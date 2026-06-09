@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sujit Fruits</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ── HEADER ── -->
+  <header>
+    <div class="logo">
+      <span class="logo-icon">🍊</span>
+      <span class="logo-text">Sujit Fruits</span>
+    </div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#explore">Explore</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Shop Now</a>
+    </nav>
+  </header>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Fresh · Organic · Delivered</p>
+      <h1>Nature's Sweetest<br/><em>Gifts for You</em></h1>
+      <p class="hero-sub">Hand-picked from sun-drenched orchards and delivered fresh to your doorstep. Every fruit tells a story of care.</p>
+      <div class="hero-actions">
+        <a href="#explore" class="btn-primary">Explore Fruits</a>
+        <a href="#about" class="btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="fruit-ring ring-outer"></div>
+      <div class="fruit-ring ring-inner"></div>
+      <div class="hero-emojis">
+        <span class="fe fe-1">🍓</span>
+        <span class="fe fe-2">🥭</span>
+        <span class="fe fe-3">🍋</span>
+        <span class="fe fe-4">🍇</span>
+        <span class="fe fe-5">🍍</span>
+        <span class="fe fe-6">🍈</span>
+      </div>
+      <div class="hero-center-fruit">🍊</div>
+    </div>
+  </section>
+
+  <!-- ── EXPLORE FRUITS ── -->
+  <section id="explore">
+    <div class="section-header">
+      <span class="section-tag">Fresh Picks</span>
+      <h2>Explore Our Fruits</h2>
+      <p>Discover vibrant flavors sourced from the finest farms around the world.</p>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="tropical">Tropical</button>
+      <button class="filter-btn" data-filter="citrus">Citrus</button>
+      <button class="filter-btn" data-filter="berry">Berries</button>
+      <button class="filter-btn" data-filter="stone">Stone Fruits</button>
+    </div>
+
+    <div class="fruits-grid">
+
+      <div class="fruit-card" data-category="tropical">
+        <div class="card-emoji">🥭</div>
+        <div class="card-badge">Bestseller</div>
+        <h3>Alphonso Mango</h3>
+        <p>Rich, creamy texture with a sweet floral aroma. The king of mangoes from Ratnagiri.</p>
+        <div class="card-footer">
+          <span class="price">₹120 <small>/kg</small></span>
+          <button class="add-btn">+ Add</button>
+        </div>
+      </div>
+
+      <div class="fruit-card" data-category="tropical">
+        <div class="card-emoji">🍍</div>
+        <h3>Golden Pineapple</h3>
+        <p>Bright tropical sweetness with a satisfying crunch. Sun-ripened on the vine.</p>
+        <div class="card-footer">
+          <span class="price">₹80 <small>/pc</small></span>
+          <button class="add-btn">+ Add</button>
+        </div>
+      </div>
+
+      <div class="fruit-card" data-category="citrus">
+        <div class="card-emoji">🍋</div>
+        <div class="card-badge new">New</div>
+        <h3>Sicilian Lemon</h3>
+        <p>Intensely fragrant zest and juice-forward tartness. Perfect for cooking and drinks.</p>
+        <div class="card-footer">
+          <span class="price">₹60 <small>/kg</small></span>
+          <button class="add-btn">+ Add</button>
+        </div>
+      </div>
+
+      <div class="fruit-card" data-category="citrus">
+        <div class="card-emoji">🍊</div>
+        <h3>Nagpur Orange</h3>
+        <p>Juicy, seedless and bursting with vitamin C. India's most celebrated orange variety.</p>
+        <div class="card-footer">
+          <span class="price">₹90 <small>/kg</small></span>
+          <button class="add-btn">+ Add</button>
+        </div>
+      </div>
+
+      <div class="fruit-card" data-category="berry">
+        <div class="card-emoji">🍓</div>
+        <div class="card-badge">Organic</div>
+        <h3>Garden Strawberry</h3>
+        <p>Plump, deep-red and irresistibly sweet. Freshly harvested from highland farms.</p>
+        <div class="card-footer">
+          <span class="price">₹150 <small>/250g</small></span>
+          <button class="add-btn">+ Add</button>
+        </div>
+      </div>
+
+      <div class="fruit-card" data-category="berry">
+        <div class="card-emoji">🍇</div>
+        <h3>Black Muscat Grape</h3>
+        <p>Deep purple clusters with a bold, wine-like sweetness. Seedless and firm.</p>
+        <div class="card-footer">
+          <span class="price">₹110 <small>/kg</small></span>
+          <button class="add-btn">+ Add</button>
+        </div>
+      </div>
+
+      <div class="fruit-card" data-category="stone">
+        <div class="card-emoji">🍑</div>
+        <h3>Kashmiri Peach</h3>
+        <p>Velvety skin, honey-sweet flesh. Picked at peak ripeness from mountain orchards.</p>
+        <div class="card-footer">
+          <span class="price">₹200 <small>/kg</small></span>
+          <button class="add-btn">+ Add</button>
+        </div>
+      </div>
+
+      <div class="fruit-card" data-category="tropical">
+        <div class="card-emoji">🍈</div>
+        <div class="card-badge new">New</div>
+        <h3>Honeydew Melon</h3>
+        <p>Cool, pale-green flesh with a delicate, candy-sweet flavour. Perfect for summer.</p>
+        <div class="card-footer">
+          <span class="price">₹70 <small>/kg</small></span>
+          <button class="add-btn">+ Add</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="about-image">🌿</div>
+    <div class="about-text">
+      <span class="section-tag">Our Story</span>
+      <h2>Grown with Love,<br/><em>Delivered with Care</em></h2>
+      <p>Sujit Fruits was born from a simple belief — everyone deserves fruit at its very best. We partner directly with farmers who share our passion for quality, cutting out middlemen so you get fresher produce at fairer prices.</p>
+      <ul class="about-features">
+        <li><span>🌱</span> 100% Naturally Grown</li>
+        <li><span>🚚</span> Same-Day Delivery</li>
+        <li><span>🤝</span> Farmer Direct Sourcing</li>
+        <li><span>♻️</span> Eco-Friendly Packaging</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="contact-inner">
+      <span class="section-tag">Get in Touch</span>
+      <h2>Order Fresh Today</h2>
+      <p>Place your order and we'll deliver farm-fresh fruits right to your home.</p>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <span>📞</span>
+          <strong>Call Us</strong>
+          <p>+91 98765 43210</p>
+        </div>
+        <div class="contact-card">
+          <span>📧</span>
+          <strong>Email</strong>
+          <p>hello@sujitfruits.in</p>
+        </div>
+        <div class="contact-card">
+          <span>📍</span>
+          <strong>Visit Us</strong>
+          <p>Main Market, Pune, Maharashtra</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-logo">🍊 Sujit Fruits</div>
+    <p>© 2026 Sujit Fruits. All rights reserved. Fresh every day.</p>
+  </footer>
+
+  <script>
+    // Filter functionality
+    const btns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.fruit-card');
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        cards.forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.style.display = '';
+            card.style.animation = 'fadeUp 0.4s ease forwards';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Add button feedback
+    document.querySelectorAll('.add-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.textContent = '✓ Added';
+        btn.classList.add('added');
+        setTimeout(() => { btn.textContent = '+ Add'; btn.classList.remove('added'); }, 1500);
+      });
+    });
+  </script>
+
+</body>
+</html>
